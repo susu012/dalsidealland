@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim&&Neovim/Vim极简命令手册.md",
+                "file": "诗/心底.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim&&Neovim/Vim极简命令手册.md",
+                "file": "诗/心底.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim&&Neovim/Vim极简命令手册.md",
+                "file": "诗/心底.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim&&Neovim/Vim极简命令手册.md"
+                "file": "诗/心底.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "3b9ffe08d52a134c",
   "lastOpenFiles": [
+    "诗/霉变.md",
+    "诗/心底.md",
+    "Vim&&Neovim/Vim极简命令手册.md",
     "Solidity/remix使用.md",
     "Solidity/NFT合约开发.md",
     "Solidity/remix本地安装.md",
@@ -158,7 +161,6 @@
     "杂集/为什么伟大不能被计划——肯尼斯·斯坦利,乔尔·雷曼.md",
     "杂集/当李晓峰成为sky.md",
     "厨艺/鱿鱼海鲜粥.md",
-    "Vim&&Neovim/Vim极简命令手册.md",
     "厨艺/牛奶燕麦粥.md",
     "厨艺/白菜虾米粥.md",
     "厨艺/疙瘩汤教程.md",
