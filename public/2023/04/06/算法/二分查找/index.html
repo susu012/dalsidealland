@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <meta name="author" content="Dal">
+  
+  
+      <meta name="subtitle" content="主页">
+  
+  
+      <meta name="description" content="描述">
+  
+  
+  
+    <link rel="alternate" href="/atom.xml " title="Dal的理想之地" type="application/atom+xml">
+  
+
+  
+
+  <title>二分查找 | Dal的理想之地</title>
+
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="/css/style.css" >
+  <link rel="stylesheet" href="/css/partial/dark.css" >
+
+  
+  
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/partial/highlight/atom-one-light.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/css/iconfont.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+    
+  
+
+  
+    <script src="/js/todark.js"></script>
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+</html>
+    
+<div class="nav index" style="height: 60px;">
+    <div class="title animated fadeInDown">
+        <div class="layui-container">
+                <div class="nav-title"><a href="/" title="Dal的理想之地">Dal的理想之地</a></div>
+            <div class="nav-list">
+                <button> <span class=""></span><span style="display: block;"></span><span class=""></span> </button>
+                <ul class="layui-nav" lay-filter="">
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/ ">
+                            <i class=" fab fa-fort-awesome " style="color: rgb(255 107 107);"></i>
+                            <span class="layui-nav-item-name">主页时间线</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/categories ">
+                            <i class=" far fa-folder-open " style="color: rgb(29 209 161);"></i>
+                            <span class="layui-nav-item-name">文章分类</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/about/ ">
+                            <i class=" fab fa-grav " style="color: rgb(154 106 247);"></i>
+                            <span class="layui-nav-item-name">关于和留言</span>
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="layui-nav-item" id="btn-toggle-dark">🌙</li>
+                    
+                    <span class="layui-nav-bar" style="left: 342px; top: 78px; width: 0px; opacity: 0;"></span>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<header class="header">
+        
+            <div class="logo">
+                    <a href="/"><img src="https://cdnjson.com/images/2024/04/16/favicon69ad1d79ba9f3d79.jpg" onerror=this.onerror=null,this.src="/img/loading.gif"></a>
+            </div>
+         
+    </div>
+     
+
+            <div class="motto">
+                <span>在混沌纷繁的尘世中寻找真正想要的是什么</span>
+            </div>
+    
+    
+            <div class="social">
+                
+                        <a class="social-icon" href="https://github.com/susu012" target="_blank" title="Github">
+                            <i class="iconfont icon-GitHub" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="second_rabbit@163.com" target="_blank" title="Email">
+                            <i class="iconfont icon-email" aria-hidden="true"></i>
+                          </a>
+                 
+            </div>
+     
+</header>
+
+    
+<article id="post">
+  <div class="post-title">二分查找</div>
+  
+<div class="post-meta">
+    
+    
+      <div class="post-meta-item date">
+        <span title="发表于 2023.04.06"><i class="far fa-calendar-alt"></i> 2023.04.06</span>
+      </div>
+      <div class="post-meta-item updated">
+        <span title="更新于 2024.04.14"><i class="far fa-calendar-check"></i> 2024.04.14</span>
+      </div>
+     
+    
+      <div class="post-meta-item categories">
+        
+          <i class="fas fa-inbox article-meta__icon"></i> <a href="/categories/%E7%AE%97%E6%B3%95/">算法</a>
+        
+      </div>
+     
+    
+     <div class="post-meta-item wordcount">
+        
+          <i class="fas fa-pencil-alt"></i> <span class="post-count">977 字</span>
+           
+        
+          <i class="far fa-clock"></i> <span class="post-count">3 分钟</span>
+                               
+      </div>
+     
+</div>
+
+
+  
+  <div class="content">
+        <div><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a><strong>概述</strong></h2><hr>
+<p><strong>二分算法解决问题的使用条件</strong></p>
+<ol>
+<li>有序：数据必须是有序的，不管是顺序表还是链，这不必多说</li>
+<li>二段性：二分算法的判断条件必须具有二段性，通常是 “&gt;” 或 “&lt;”，人话说就是可以分为两部分，也可以说“查找的目标元素可以进行比较操作”</li>
+</ol>
+<blockquote>
+<p><em>在算法题中，用二分算法解决问题的充分条件是什么？</em></p>
+<ol>
+<li>数据具有单调性：二分算法适用于有序数组或者单调性强的问题。在这种情况下，可以通过比较中间值和目标值的大小关系，排除一半的数据。</li>
+<li>数据量较大：如果数据量较小，直接遍历整个数组即可。但如果数据量较大，二分算法可以节省大量时间复杂度，使算法效率更高。</li>
+<li>没有重复元素：二分算法是基于元素唯一性的。如果存在重复元素，可能会出现一些问题，例如无法确定查找结果的唯一性。</li>
+<li>可以随机访问元素：二分算法需要能够随机访问数组中的元素。如果数据结构不支持随机访问，例如链表，二分算法就无法使用。</li>
+</ol>
+</blockquote>
+<hr>
+<h2 id="模板代码"><a href="#模板代码" class="headerlink" title="模板代码"></a><strong>模板代码</strong></h2><p>题目：</p>
+<blockquote>
+<p><em>一道二分查找题</em></p>
+<p>题干：满足 N ! 的末尾恰好有 K 个 0 的最小的 N 是多少?如果这样的 <em>N</em> 不存在输出 −1。</p>
+<p>输入格式：一个整数K</p>
+<p>输出格式：一个整数代表答案</p>
+<p>样例输入：2</p>
+<p>样例输出：10</p>
+</blockquote>
+<p>标准答案：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="comment">// 1:无需package</span></span><br><span class="line"><span class="comment">// 2: 类名必须Main, 不可修改</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="comment">//求阶乘末尾0的个数其实就是求阶乘因子中5的个数</span></span><br><span class="line">    <span class="keyword">static</span> <span class="type">long</span> <span class="title function_">calc</span><span class="params">(<span class="type">long</span> x)</span> &#123;</span><br><span class="line">        <span class="type">long</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(x!=<span class="number">0</span>) &#123;</span><br><span class="line">            res=res+x/<span class="number">5</span>;</span><br><span class="line">            x/=<span class="number">5</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">  </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//二分查找</span></span><br><span class="line">        Scanner scanner=<span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">long</span> k=scanner.nextLong();</span><br><span class="line">        <span class="type">long</span> l=<span class="number">1</span>,r=Long.MAX_VALUE-<span class="number">5</span>;<span class="comment">//l为最左边，r为最右边</span></span><br><span class="line">    </span><br><span class="line">        <span class="keyword">while</span>(l&lt;r) &#123;</span><br><span class="line">            <span class="type">long</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(k&lt;=calc(mid)) &#123;</span><br><span class="line">                r=mid;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                l=mid+<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(calc(r)!=k) &#123;</span><br><span class="line">            System.out.print(-<span class="number">1</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.print(r);</span><br><span class="line">        &#125;</span><br><span class="line">    </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>答案代码中，关于二分查找的分析：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//二分查找规定要求f(x)中的x是有序的</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//规定一个最小值和最大值的指针，但要注意后续两者相加后是否会超过基本数据类型范围上限</span></span><br><span class="line"><span class="comment">//在此题中，l为最左边下标，r为最右边下标</span></span><br><span class="line"><span class="type">long</span> l=<span class="number">1</span>,r=Long.MAX_VALUE-<span class="number">5</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//当左下标小于右下标时循环</span></span><br><span class="line"><span class="keyword">while</span>(l&lt;r) &#123;</span><br><span class="line">	<span class="comment">//每次循环之前算出中下标</span></span><br><span class="line">	<span class="type">long</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//如果中下标的值，在题目要求中偏小，把左下标的值更新为中下标</span></span><br><span class="line">	<span class="keyword">if</span>(k&lt;=calc(mid)) &#123;</span><br><span class="line">	r=mid;</span><br><span class="line">	&#125;<span class="keyword">else</span> &#123; <span class="comment">//如果偏大，把右下标的值，更新为左下标</span></span><br><span class="line">	l=mid+<span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="关于被查找的数组元素总数奇偶性的理解"><a href="#关于被查找的数组元素总数奇偶性的理解" class="headerlink" title="关于被查找的数组元素总数奇偶性的理解"></a><strong>关于被查找的数组元素总数奇偶性的理解</strong></h2><p>GPT关于被查找的数组元素个数奇偶性的理解是：</p>
+<p>一句话就是，以上模板无论数组元素个数是奇是偶都适用，不过当元素个数为奇则最后只会剩下一个元素没有争议；元素个数为偶时最后剩下两个元素，两者都有可能是要找的目标</p>
+<blockquote>
+<p>这个二分查找算法是适用于所有元素个数为正整数的有序数组，无论数组元素个数是奇数还是偶数都可以使用这个模板。<br>对于奇数个元素的数组，最后剩下的中间元素就是要查找的元素；<br>对于偶数个元素的数组，则最后剩下的两个中间元素中任意一个都可能是要查找的元素。</p>
+</blockquote>
+</div>
+        
+          <div class="post-copyright">
+                  <div class="copyright-item">
+                      <span> 作者: Dal</span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> 链接: <a href="https://susu012.github.io/2023/04/06/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/">https://susu012.github.io/2023/04/06/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</a></span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> 声明: 本博客所有文章除特别声明外，均采用许可协议 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a>，转载请注明出处。</span>
+                  </div>
+          </div>
+        
+  </div>
+
+    <div class="post_tags">
+      
+    </div>
+    <div class="post-nav">
+      
+        <div class="post-nav-prev post-nav-item">
+            <a href="/2023/04/06/%E7%AE%97%E6%B3%95/%E4%B8%80%E9%81%93%E9%A2%98%E7%90%86%E8%A7%A3%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E3%80%81BFS%E3%80%81DFS/" >一道题理解动态规划、BFS、DFS<i class="fa fa-chevron-left"></i></a>
+        </div>
+      
+      
+        <div class="post-nav-next post-nav-item">
+            <a href="/2023/04/06/%E8%AF%97/%E5%AE%9D%E8%B4%9D%EF%BC%8C%E6%9D%A5%E6%98%A5%E5%A4%A9%E7%8E%A9/" >宝贝，来春天玩<i class="fa fa-chevron-right"></i></a>
+        </div>
+      
+    </div>
+      
+
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+      init({
+      el: '#waline',
+      path: location.pathname,
+      serverURL: "https://waline-1-m0326839.deta.app/",
+      avatar: "mm",
+      placeholder: "感激不尽",
+      pageview: true, // 浏览量统计
+    });
+    </script>
+
+
+
+
+</article>
+
+    
+<a id="gotop" href="javascript:" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    
+
+
+
+
+
+
+    
+<div id="bottom-outer">
+    <div id="bottom-inner">
+        © 2024 <i class="fa fa-heart" id="heart"></i> Dal 
+        <br>
+        「 就在那个时刻，你记得这并非幻觉，的确就在那个时刻，那只手和那块石头的接触面，她突然回过头冲你说：我也爱着你。 」
+        
+    </div>  
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/layui-src@2.5.5/dist/layui.min.js"></script>
+
+
+
+  
+    <script src="/js/script.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+  
+
+ 
+
+
+
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: 'img',
+      threshold: 0
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script>   
+  
+
+
+  <script>
+    var images = $('img').not('.nav-logo img').not('.card img').not($('a>img')).not('.reward-content img')
+    images.each(function (i, o) {
+      var lazyloadSrc = $(o).attr('data-src') ? $(o).attr('data-src') : $(o).attr('src')
+      $(o).wrap(`<a href="${lazyloadSrc}" data-fancybox="group" data-caption="${$(o).attr('alt')}" class="fancybox"></a>`)
+    })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script>
+  <script>
+        $().fancybox({
+      selector: '[data-fancybox]',
+      loop: true,
+      transitionEffect: 'slide',
+      protect: true,
+      buttons: ['slideShow', 'fullScreen', 'thumbs', 'close']
+    })
+  </script>   
+  
+
+
+  <script>
+  if (!window.MathJax) {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]],
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+              const display = !!node.type.match(/; *mode=display/)
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+              const text = document.createTextNode('')
+              node.parentNode.replaceChild(text, node)
+              math.start = {node: text, delim: '', n: 0}
+              math.end = {node: text, delim: '', n: 0}
+              doc.math.push(math)
+            }
+          }, '']
+        }
+      }
+    }
+    
+    var script = document.createElement('script')
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"
+    script.id = 'MathJax-script'
+    script.async = true
+    document.head.appendChild(script)
+  } else {
+    MathJax.startup.document.state(0)
+    MathJax.texReset()
+    MathJax.typeset()
+  }
+  </script>
+  
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/js/firework.js"></script>
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js"></script>
+<script>
+!function (e, t, a) {
+  var initCopyCode = function(){
+    var copyHtml = '';
+    copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+    copyHtml += '  <i class="fa fa-clipboard"></i><span>复制</span>';
+    copyHtml += '</button>';
+    $(".highlight .code pre").before(copyHtml);
+    new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+  }
+  initCopyCode();
+}(window, document);
+</script>  
+  
+
+<script>
+  var btntop = $('#gotop');
+  btntop.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+  var $table = $('.content table').not($('figure.highlight > table'))
+$table.each(function () {
+  $(this).wrap('<div class="table-wrap"></div>')
+})
+</script>
+
+
+
+</html>
