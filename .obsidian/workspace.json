@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "31cf0c84306af473",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5fd419a3df2b0d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e903b4c09e7ca768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/诗/霉变.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ecd8e366d109261f",
+    "type": "split",
+    "children": [
+      {
+        "id": "22278dfa970170d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "942caa3f46e7684f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a40343fcea7ab6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85331b8e54e650bd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a913d0dd19d615f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "right": {
+    "id": "d8eaf0565bac4aa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "399e70c459b1ea4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfe7d515dfb2b2cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "source/_posts/诗/霉变.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e05c8555b07b77d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/诗/霉变.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e180cc07f878252",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1437a0d332d7cd0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/诗/霉变.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "templates:插入模板": false
+    }
+  },
+  "active": "e903b4c09e7ca768",
+  "lastOpenFiles": [
+    "db.json",
+    "public/images/banner/ideal.jpeg",
+    "public/images/banner",
+    "public/images",
+    "public/img/alipay.jpg",
+    "public/page/2/index.html",
+    "public/img/wechat.jpg",
+    "public/archives/2023/04/index.html",
+    "public/img/alipay.svg",
+    "public/img/paypal.svg",
+    "public/fonts/chinese-zodiac.woff",
+    "public/CNAME",
+    "public/img/favicon.png",
+    "public/img/loading.gif",
+    "public/img/wechat.svg",
+    "public/fonts/chinese-zodiac.eot",
+    "public/archives/2023/page/2/index.html",
+    "public/archives/page/2/index.html",
+    "public/2024/04/15/技术栈/Git教程/index.html",
+    "public/img/icp.png",
+    "source/_posts/诗/霉变.md",
+    "source/_posts/技术栈/Git教程.md",
+    "source/_posts/诗/宝贝，来春天玩.md",
+    "source/_posts/Solidity/NFT合约开发.md",
+    "source/_posts/Solidity/极简Solidity语法总结.md",
+    "source/_posts/Solidity/remix使用.md",
+    "source/_posts/算法/状态转移方程中的状态究竟是指什么？.md",
+    "source/_posts/随记/理想是一种咖啡.md",
+    "source/_posts/408/众元教育网课 7天快速通过计算机网络期末考试.md",
+    "source/_posts/杂集/新诗研究.md",
+    "source/_posts/杂集/特价机票研究.md",
+    "source/_posts/杂集/创意写作.md",
+    "source/_posts/影音/河西走廊.md",
+    "source/_posts/天文学/夜观星空—特伦斯·迪金森.md",
+    "source/_posts/杂集/观赏植物学.md",
+    "source/_posts/杂集/为什么伟大不能被计划——肯尼斯·斯坦利,乔尔·雷曼.md",
+    "source/_posts/杂集/我这辈子见过最好的学习方法  CLT认知负荷理论  汤质看本质.md",
+    "source/_posts/Vim&&Neovim/Vim极简命令手册.md",
+    "未命名.md",
+    "source/_posts/杂集/未命名.md",
+    "'技术栈'.md",
+    "node_modules/@next-theme/utils/node_modules/hexo-util/README.md",
+    "node_modules/@waline/hexo-next/README.md",
+    "node_modules/@next-theme/utils/README.md",
+    "node_modules/@next-theme/utils/node_modules/highlight.js/scss/school-book.png",
+    "node_modules/@next-theme/utils/node_modules/entities/readme.md",
+    "未命名.canvas"
+  ]
+}
