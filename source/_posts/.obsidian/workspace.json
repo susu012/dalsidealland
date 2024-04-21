@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "诗/恋爱.md",
+                "file": "诗/麻药.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "诗/恋爱.md",
+                "file": "诗/麻药.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "诗/恋爱.md",
+                "file": "诗/麻药.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "诗/恋爱.md"
+                "file": "诗/麻药.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "3b9ffe08d52a134c",
   "lastOpenFiles": [
-    "诗/爱情.md",
+    "诗/真理.md",
+    "诗/麻药.md",
     "诗/恋爱.md",
+    "诗/爱情.md",
     "诗/霉变.md",
     "诗/理想.md",
     "诗/我心中有.md",
@@ -172,8 +174,6 @@
     "厨艺/白菜虾米粥.md",
     "厨艺/疙瘩汤教程.md",
     "厨艺/光速绿豆水教程.md",
-    "厨艺/红豆小米粥.md",
-    "技术栈/Git教程.md",
     "厨艺"
   ]
 }
