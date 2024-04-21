@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/状态转移方程中的状态究竟是指什么？.md",
+                "file": "诗/恋爱.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/状态转移方程中的状态究竟是指什么？.md",
+                "file": "诗/恋爱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/状态转移方程中的状态究竟是指什么？.md",
+                "file": "诗/恋爱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/状态转移方程中的状态究竟是指什么？.md"
+                "file": "诗/恋爱.md"
               }
             }
           }
@@ -149,8 +149,14 @@
   "active": "3b9ffe08d52a134c",
   "lastOpenFiles": [
     "诗/爱情.md",
-    "诗/心底.md",
+    "诗/恋爱.md",
     "诗/霉变.md",
+    "诗/理想.md",
+    "诗/我心中有.md",
+    "诗/站在阳光里.md",
+    "算法/状态转移方程中的状态究竟是指什么？.md",
+    "算法/一道题理解动态规划、BFS、DFS.md",
+    "诗/心底.md",
     "Vim&&Neovim/Vim极简命令手册.md",
     "Solidity/remix使用.md",
     "Solidity/NFT合约开发.md",
@@ -168,9 +174,6 @@
     "厨艺/光速绿豆水教程.md",
     "厨艺/红豆小米粥.md",
     "技术栈/Git教程.md",
-    "杂集/创意写作.md",
-    "杂集/观赏植物学.md",
-    "厨艺",
-    "杂集/如何把HEXO等静态博客部署到cloudflare Pages服务上.md"
+    "厨艺"
   ]
 }
