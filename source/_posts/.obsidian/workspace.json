@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d8a798dfafdf5450",
+        "id": "507667af5ada551e",
         "type": "tabs",
         "children": [
           {
-            "id": "3b9ffe08d52a134c",
+            "id": "8859e0ef3a0dfada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高数习题/洛必达法则求极限的变形题.md",
+                "file": "高数习题/判断间断点的类型.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "高数习题/洛必达法则求极限的变形题.md",
+                "file": "高数习题/判断间断点的类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "高数习题/洛必达法则求极限的变形题.md",
+                "file": "高数习题/判断间断点的类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "高数习题/洛必达法则求极限的变形题.md"
+                "file": "高数习题/判断间断点的类型.md"
               }
             }
           }
@@ -146,10 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3b9ffe08d52a134c",
+  "active": "8859e0ef3a0dfada",
   "lastOpenFiles": [
-    "技术栈/Git教程.md",
     "高数习题/洛必达法则求极限的变形题.md",
+    "高数习题/判断间断点的类型.md",
+    "厨艺/鱿鱼海鲜粥.md",
+    "厨艺/牛奶燕麦粥.md",
+    "厨艺/红豆小米粥.md",
+    "厨艺/光速绿豆水教程.md",
+    "厨艺/疙瘩汤教程.md",
+    "厨艺/白菜虾米粥.md",
+    "技术栈/Git教程.md",
     "408/众元教育网课 7天快速通过计算机网络期末考试.md",
     "高数习题",
     "未命名.md",
@@ -168,13 +175,6 @@
     "Solidity/remix使用.md",
     "Solidity/NFT合约开发.md",
     "Solidity/remix本地安装.md",
-    "Solidity/极简Solidity语法总结.md",
-    "杂集/新诗研究.md",
-    "杂集/我这辈子见过最好的学习方法  CLT认知负荷理论  汤质看本质.md",
-    "杂集/特价机票研究.md",
-    "杂集/为什么伟大不能被计划——肯尼斯·斯坦利,乔尔·雷曼.md",
-    "杂集/当李晓峰成为sky.md",
-    "厨艺/鱿鱼海鲜粥.md",
     "厨艺"
   ]
 }
