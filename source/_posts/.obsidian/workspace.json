@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "e11bbf2578d9d8b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "507667af5ada551e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8859e0ef3a0dfada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0d5ccf0e584469da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec58d0b152412a7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "39a50288ab0998fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3731a6f645300ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f4116281d1bd450",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "74d30416090f6392",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a69b9f00196a2c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "39885506b77df58c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa8a12ba0bf0ffdf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3ae423faec3d254",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "abdfcde022f0bfba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "41a9c4364631ef40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "0d5ccf0e584469da",
+  "lastOpenFiles": [
+    "厨艺/牛奶燕麦粥.md",
+    "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+    "函数式编程/函数式编程是什么.md",
+    "技术栈/Git教程.md",
+    "408/（一）计算机操作系统的名词们搞懂了吗？（操作系统的目标和作用）.md",
+    "函数式编程",
+    "影音/河西走廊.md",
+    "408/未命名",
+    "杂集/我这辈子见过最好的学习方法  CLT认知负荷理论  汤质看本质.md",
+    "杂集/新诗研究.md",
+    "杂集/为什么伟大不能被计划——肯尼斯·斯坦利,乔尔·雷曼.md",
+    "杂集/特价机票研究.md",
+    "杂集/观赏植物学.md",
+    "杂集/创意写作.md",
+    "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
+    "debug/arch Linux 安装 RDP 终极教程.md",
+    "408/众元教育网课 7天快速通过计算机网络期末考试.md",
+    "408/（二）计算机操作系统的名词们搞懂了吗？（操作系统的发展过程）.md",
+    "Vim&&Neovim/Vim极简命令手册.md",
+    "debug",
+    "高数习题/判断间断点的类型.md",
+    "高数习题/洛必达法则求极限的变形题.md",
+    "厨艺/鱿鱼海鲜粥.md",
+    "厨艺/红豆小米粥.md",
+    "厨艺/光速绿豆水教程.md",
+    "厨艺/疙瘩汤教程.md",
+    "厨艺/白菜虾米粥.md",
+    "高数习题",
+    "未命名.md",
+    "诗/麻药.md",
+    "厨艺"
+  ]
+}
