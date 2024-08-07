@@ -3,7 +3,7 @@
 language: zh-CN
 
 # 设置 favicon
-favicon: /img/favicon.png
+favicon: https://imgs.dalsidealland.com/beefbun/2024/08/5e3543c7e93c884c353e9e453a8a4f88.png
 
 
 # 设置 rss
@@ -40,7 +40,7 @@ menu:
 # 如果 method: 1显示名称；method: 2显示头像
 logo:
   method: 2
-  avatar: https://cdnjson.com/images/2024/04/16/favicon69ad1d79ba9f3d79.jpg
+  avatar: https://imgs.dalsidealland.com/beefbun/2024/08/5e3543c7e93c884c353e9e453a8a4f88.png
 
 
 

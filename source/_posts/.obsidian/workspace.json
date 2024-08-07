@@ -18,21 +18,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "0d5ccf0e584469da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cdnjson",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+                "file": "天文学/夜观星空—特伦斯·迪金森.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+                "file": "天文学/夜观星空—特伦斯·迪金森.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "函数式编程/速通Lambda 演算形式系统语法和概念.md"
+                "file": "天文学/夜观星空—特伦斯·迪金森.md"
               }
             }
           }
@@ -159,12 +147,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0d5ccf0e584469da",
+  "active": "5f4116281d1bd450",
   "lastOpenFiles": [
-    "厨艺/牛奶燕麦粥.md",
-    "函数式编程/速通Lambda 演算形式系统语法和概念.md",
-    "函数式编程/函数式编程是什么.md",
     "技术栈/Git教程.md",
+    "厨艺/白菜虾米粥.md",
+    "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+    "厨艺/牛奶燕麦粥.md",
+    "函数式编程/函数式编程是什么.md",
     "408/（一）计算机操作系统的名词们搞懂了吗？（操作系统的目标和作用）.md",
     "函数式编程",
     "影音/河西走廊.md",
@@ -187,7 +176,6 @@
     "厨艺/红豆小米粥.md",
     "厨艺/光速绿豆水教程.md",
     "厨艺/疙瘩汤教程.md",
-    "厨艺/白菜虾米粥.md",
     "高数习题",
     "未命名.md",
     "诗/麻药.md",

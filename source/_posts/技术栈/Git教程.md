@@ -382,7 +382,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
    如下是一个典型的冲突，有两个分支，feature1和master，都分别对同一文件进行不同修改，提交成了两个不同的版本，此时HEAD指针指向master，如果尝试合并feature1和master，就会产生冲突
 
-   ![Untitled](https://cdnjson.com/images/2024/04/15/Untitled56bba0107becb5d2.png)
+   ![](https://imgs.dalsidealland.com/beefbun/2024/08/466dc0edb27edadeb3a7d5767430071f.png)
 
 2. 如何解决冲突：尝试分支合并如果出现冲突，git会提示无法合并，并给出是哪个文件的什么内容出现了冲突，此时很简单手动处理即可，即把其中一个分支的冲突文件的冲突行改成和另一个分支一样就可以正常进行分支合并操作了
 
@@ -468,7 +468,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
    注意这个命令会在行末的括号里分别显示具有可以抓取和推送权限的远程仓库，如下图
 
-   ![Untitled](https://cdnjson.com/images/2024/04/15/Untitled-18f48d74ca5621b64.png)
+   ![](https://imgs.dalsidealland.com/beefbun/2024/08/63e76e292b7e00a366cbbe3f21481352.png)
 
 3. 推送本地指定分支的头版本到指定远程仓库：git push 指定远程仓库名 指定分支名
 
