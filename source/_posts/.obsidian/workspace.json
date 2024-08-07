@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "507667af5ada551e",
+        "id": "03c27d21500471a2",
         "type": "tabs",
         "children": [
           {
-            "id": "8859e0ef3a0dfada",
+            "id": "106f2c521aa0cbdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cdnjson",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "天文学/夜观星空—特伦斯·迪金森.md",
+                "file": "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "天文学/夜观星空—特伦斯·迪金森.md",
+                "file": "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "天文学/夜观星空—特伦斯·迪金森.md"
+                "file": "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md"
               }
             }
           }
@@ -147,13 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5f4116281d1bd450",
+  "active": "106f2c521aa0cbdb",
   "lastOpenFiles": [
+    "debug/arch Linux 安装 RDP 终极教程.md",
+    "函数式编程/速通Lambda 演算形式系统语法和概念.md",
+    "函数式编程/函数式编程是什么.md",
+    "天文学/夜观星空—特伦斯·迪金森.md",
     "技术栈/Git教程.md",
     "厨艺/白菜虾米粥.md",
-    "函数式编程/速通Lambda 演算形式系统语法和概念.md",
     "厨艺/牛奶燕麦粥.md",
-    "函数式编程/函数式编程是什么.md",
     "408/（一）计算机操作系统的名词们搞懂了吗？（操作系统的目标和作用）.md",
     "函数式编程",
     "影音/河西走廊.md",
@@ -165,7 +166,6 @@
     "杂集/观赏植物学.md",
     "杂集/创意写作.md",
     "debug/arch Linux 安装Nvidia 驱动KDE输入密码后不能进入桌面只有鼠标指针.md",
-    "debug/arch Linux 安装 RDP 终极教程.md",
     "408/众元教育网课 7天快速通过计算机网络期末考试.md",
     "408/（二）计算机操作系统的名词们搞懂了吗？（操作系统的发展过程）.md",
     "Vim&&Neovim/Vim极简命令手册.md",
@@ -178,7 +178,6 @@
     "厨艺/疙瘩汤教程.md",
     "高数习题",
     "未命名.md",
-    "诗/麻药.md",
     "厨艺"
   ]
 }

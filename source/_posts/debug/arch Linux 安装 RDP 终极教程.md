@@ -1,6 +1,6 @@
 ---
 title: arch Linux 安装 RDP 终极教程
-date: 2023-07-30 12:15:54
+date: 2024-07-30 12:15:54
 tags: 
 categories:
   - - debug
